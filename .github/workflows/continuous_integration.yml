@@ -2,7 +2,7 @@ name: "Continuous Integration"
 on: push
 
 jobs:
-  - main:
+  main:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
